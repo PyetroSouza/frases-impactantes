@@ -5,15 +5,38 @@ body {
     font-family: "Comic Neue", sans-serif;
 }
 
-header {
-    background-color: green;
-}
-
 main {
-    background-color: yellow;
+    background-color: #900099;
     flex-grow: 1;
 }
 
-footer {
-    background-color: brown;
+.frase {
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 275px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.frase p {
+    font-size: 13px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #800000;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #993333;
 }

@@ -1,0 +1,19 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: "Comic Neue", sans-serif;
+}
+
+header {
+    background-color: green;
+}
+
+main {
+    background-color: yellow;
+    flex-grow: 1;
+}
+
+footer {
+    background-color: brown;
+}

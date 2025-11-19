@@ -29,3 +29,26 @@ function mostrarFrase() {
     document.getElementById('frase').textContent = frases[indice].texto;
     document.getElementById('autor').textContent = frases[indice].autor;
 }
+
+// Ordenar frases pelo autor
+frases.sort((a, b) => a.autor.localeCompare(b.autor));
+
+// Preencher a lista de todas as frases
+const lista = document.getElementById('lista-frases');
+
+frases.forEach(f => {
+    const li = document.createElement('li');
+
+    const fraseEl = document.createElement('p');
+    fraseEl.textContent = `"${f.texto}"`;
+    fraseEl.classList.add('linha-frase');
+
+    const autorEl = document.createElement('p');
+    autorEl.textContent = f.autor;
+    autorEl.classList.add('linha-autor');
+
+    li.appendChild(fraseEl);
+    li.appendChild(autorEl);
+
+    lista.appendChild(li);
+});

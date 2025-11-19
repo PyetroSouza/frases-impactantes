@@ -3,11 +3,13 @@ body {
     display: flex;
     flex-direction: column;
     font-family: "Comic Neue", sans-serif;
+    color: #fff;
+    background-color: #000;
 }
 
 main {
-    background-color: #900099;
     flex-grow: 1;
+    padding: 20px;
 }
 
 .frase {
@@ -15,13 +17,14 @@ main {
     margin: 20px auto;
     padding: 20px;
     border-radius: 10px;
-    max-width: 275px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    max-width: 700px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
 }
 
 .frase p {
-    font-size: 13px;
+    color: #000;
+    font-size: 45px;
     font-weight: 700;
     margin: 10px 0;
 }
@@ -32,11 +35,63 @@ button {
     border-radius: 8px;
     background-color: #800000;
     color: white;
-    font-size: 1em;
+    font-size: 30px;
     cursor: pointer;
     margin-top: 10px;
 }
 
 button:hover {
     background-color: #993333;
+}
+
+.todas-frases {
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.todas-frases h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.todas-frases ul li {
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.linha-frase {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.linha-autor {
+    font-size: 0.9em;
+    color: #555555;
+    margin-top: 3px;
+}
+
+footer {
+    align-items: center;
+    justify-content: right;
+    display: flex;
+    padding: 0px 20px 20px 20px;
+    gap: 5px;
+}
+
+.instagram, .github{
+    align-items: normal;
+    display: flex;
+    flex-direction: column;
+    gap: 2.7px;
+}
+
+.gustavovidal, .pyetrosouza{
+    gap: 2px;
+    display: flex;
+}
+
+.svg{
+    height: 15px;
+    width: 15px;
 }

@@ -7,6 +7,12 @@ body {
     background-color: #000;
 }
 
+.rh-logo{
+    height: 160px;
+    width: 160px;
+    position: absolute;
+}
+
 main {
     flex-grow: 1;
     padding: 20px;
@@ -79,19 +85,21 @@ footer {
     gap: 5px;
 }
 
-.instagram, .github{
+.instagram,
+.github {
     align-items: normal;
     display: flex;
     flex-direction: column;
     gap: 2.7px;
 }
 
-.gustavovidal, .pyetrosouza{
+.gustavovidal,
+.pyetrosouza {
     gap: 2px;
     display: flex;
 }
 
-.svg{
+.svg {
     height: 15px;
     width: 15px;
 }

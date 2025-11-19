@@ -21,7 +21,8 @@ const frases = [
     { texto: "Travesti é igual pinga sem álcool... A cara é a mesma, a embalagem é a mesma mas o gosto é diferente!!!", autor: "NICHOLLAS, Pablo - 2025" },
     { texto: "Pra pegar peixe grande precisa de tempo, paciência e calma, porque pra pegar piranha é fácil.", autor: "VIDAL, Gustavo - 2025" },
     { texto: "Mais nítido do que saber que a água mata a sede", autor: "ALVES, Kauan - 2025" },
-    { texto: "De que adianta você ser o azul mais belo, se a pessoa que admiras gosta de vermelho? Mas não se preocupe... alguém gosta de azul.", autor: "VIDAL, Gustavo - 2025" }
+    { texto: "De que adianta você ser o azul mais belo, se a pessoa que admiras gosta de vermelho? Mas não se preocupe... alguém gosta de azul.", autor: "VIDAL, Gustavo - 2025" },
+    { texto: "As verdadeiras provas são a da vida", autor: "SILVA, Kemilly - 2025" }
 ];
 
 function mostrarFrase() {

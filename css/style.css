@@ -52,6 +52,7 @@ button:hover {
 .todas-frases {
     margin-top: 40px;
     padding: 20px;
+    text-align: justify;
 }
 
 .todas-frases h2 {
@@ -86,14 +87,15 @@ footer {
 
 .instagram,
 .github {
-    align-items: normal;
     display: flex;
     gap: 2.7px;
 }
 
-.part1, .part2{
+.part1,
+.part2 {
     display: flex;
     flex-direction: column;
+    padding: 2.7px;
 }
 
 .gustavovidal,
@@ -107,4 +109,35 @@ footer {
 .svg {
     height: 15px;
     width: 15px;
+}
+
+@media(max-width: 1024px) {
+    .frase {
+        max-width: 600px;
+    }
+
+    .frase p {
+        font-size: 37px;
+    }
+
+    .todas-frases h2 {
+        font-size: 40px;
+    }
+
+    .linha-frase {
+        font-size: 30px;
+    }
+
+    .linha-autor {
+        font-size: 27px;
+    }
+
+    footer {
+        font-size: 20px;
+    }
+
+    .svg {
+        height: 20px;
+        width: 20px;
+    }
 }

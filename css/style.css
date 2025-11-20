@@ -111,6 +111,7 @@ footer {
     width: 15px;
 }
 
+/*iPad Mini - TABLET*/
 @media(max-width: 1024px) {
     .frase {
         max-width: 600px;
@@ -134,6 +135,69 @@ footer {
 
     footer {
         font-size: 20px;
+    }
+
+    .svg {
+        height: 20px;
+        width: 20px;
+    }
+}
+
+/*iPhone SE - MOBILE*/
+@media(max-width: 480px) {
+    .rh-logo {
+        height: 100px;
+        width: 100px;
+    }
+
+    .frase {
+        max-width: 290px;
+    }
+
+    .frase p {
+        font-size: 20px;
+    }
+
+    button {
+        font-size: 20px;
+    }
+
+    .todas-frases h2 {
+        font-size: 30px;
+    }
+
+    .linha-frase {
+        font-size: 20px;
+    }
+
+    .linha-autor {
+        font-size: 16px;
+    }
+
+    footer {
+        flex-direction: column;
+        justify-content: center;
+        font-size: 13px;
+    }
+
+    .dev-by {
+        font-size: 16px;
+    }
+
+    .app {
+        display: flex;
+        gap: 7px;
+    }
+
+    .instagram,
+    .github {
+        flex-direction: column;
+    }
+
+    .part1,
+    .part2 {
+        gap: 3px;
+        padding: 0px;
     }
 
     .svg {

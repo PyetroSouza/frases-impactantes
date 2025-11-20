@@ -22,7 +22,9 @@ const frases = [
     { texto: "Pra pegar peixe grande precisa de tempo, paciência e calma, porque pra pegar piranha é fácil.", autor: "VIDAL, Gustavo - 2025" },
     { texto: "Mais nítido do que saber que a água mata a sede.", autor: "ALVES, Kauan - 2025" },
     { texto: "De que adianta você ser o azul mais belo, se a pessoa que admiras gosta de vermelho? Mas não se preocupe… alguém gosta de azul.", autor: "VIDAL, Gustavo - 2025" },
-    { texto: "As verdadeiras provas são a da vida.", autor: "SILVA, Kemilly - 2025" }
+    { texto: "As verdadeiras provas são a da vida.", autor: "SILVA, Kemilly - 2025" },
+    { texto: "Quer mentir para mentiroso?", autor: "BRENNO, Kayque - 2025" },
+    { texto: "Nunca pegue cacheada! Se ela enrola o cabelo, imagina você…", autor: "GUILHERME, Luiz - 2025" }
 ];
 
 function mostrarFrase() {

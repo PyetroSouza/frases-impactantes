@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -13,20 +13,20 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/fonts.css">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Frases Aleatórias</title>
+    <title>Todas as Frases</title>
 </head>
 
 <body>
-    <img src="./img/rh-logo.png" alt="Main logo" class="rh-logo">
-    <main>
-        <div class="frase">
-            <p id="frase">Clique no botão para ver uma frase aleatória!</p>
-            <p id="autor"></p>
-            <button onclick="mostrarFrase()">Outra frase</button>
+    <a href="./index.html" class="back-arrow">
+        <div class="voltar">
+            <img src="./img/back-arrow.svg" alt="Seta para voltar" class="svg">
         </div>
-        <a href="./phrases.html" class="all-phrases">
-            <button class="all-phrases">TODAS AS FRASES</button>
-        </a>
+    </a>
+    <main>
+        <div class="todas-frases">
+            <h2>TODAS AS FRASES</h2>
+            <ul id="lista-frases"></ul>
+        </div>
     </main>
     <footer>
         <p class="dev-by">Desenvolvido por:</p>

@@ -8,8 +8,12 @@ body {
 }
 
 .rh-logo {
-    height: 160px;
-    width: 160px;
+    height: 150px;
+    width: 150px;
+}
+
+.back-arrow {
+    padding: 40px;
 }
 
 main {
@@ -34,7 +38,7 @@ main {
     margin: 10px 0;
 }
 
-button {
+.frase button {
     padding: 10px 20px;
     border: none;
     border-radius: 8px;
@@ -45,7 +49,8 @@ button {
     margin-top: 10px;
 }
 
-button:hover {
+.frase button:hover,
+.todas-frases button:hover {
     background-color: #993333;
 }
 
@@ -59,6 +64,19 @@ button:hover {
     font-size: 30px;
     text-align: center;
     margin-bottom: 15px;
+}
+
+.all-phrases {
+    text-align: center;
+    margin: 10px auto 15px auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #800000;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    margin-top: 10px;
 }
 
 .todas-frases ul li {
@@ -94,8 +112,8 @@ footer {
 .part1,
 .part2 {
     display: flex;
-    flex-direction: column;
     padding: 2.7px;
+    gap: 4px;
 }
 
 .gustavovidal,

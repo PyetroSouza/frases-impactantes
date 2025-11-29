@@ -1,14 +1,14 @@
 const frases = [
-    { texto: "Tá se fazendo de Toddy para levar leite.", autor: "ANTUNES, Artur - 2025" },
+    { texto: "Se você não quer enfrentar o tempo e a verdade, melhor furar os seus olhos.", autor: "FERREIRA, Pyetro - 2025" },
     { texto: "Pyetro é japonês?! Só se for depois da bomba!", autor: "VIDAL, Gustavo - 2025" },
-    { texto: "Imoral isso aí man…", autor: "ALVES, Kauan - 2025" },
+    { texto: "Imoral isso aí man...", autor: "ALVES, Kauan - 2025" },
     { texto: "A gente só vai fazer festa de Halloween porque na sala só tem bruxa.", autor: "BRENNO, Kayque - 2025" },
-    { texto: "Há duas coisas que dá futuro: tráfico de pessoas, e ser cafetão!", autor: "GABRIEL, Henzo - 2025" },
-    { texto: "Da 1 até a 10, eu chutei, da 11 até a 20, eu dei uma bica…", autor: "NICHOLLAS, Pablo - 2025" },
+    { texto: "Se a carapuça serviu...", autor: "SILVA, Kemilly - 2025" },
+    { texto: "Da 1 até a 10, eu chutei, da 11 até a 20, eu dei uma bica...", autor: "NICHOLLAS, Pablo - 2025" },
     { texto: "[…] Pior é quando prende nas bolas.", autor: "BRENNO, Kayque - 2025" },
     { texto: "Joga milho para ver se essas galinhas não calam a boca.", autor: "GUILHERME, Luiz - 2025" },
-    { texto: "O seu fogo no rabo só não é maior do que o fogo do poste. Ainda bem que choveu…", autor: "GUILHERME, Luiz - 2025" },
-    { texto: "Em momentos de votação, até do bueiro sai ladrão.", autor: "VIDAL, Gustavo - 2025" },
+    { texto: "O seu fogo no rabo só não é maior do que o fogo do poste. Ainda bem que choveu...", autor: "GUILHERME, Luiz - 2025" },
+    { texto: "Se mata, Pyetro!", autor: "LUIZA, Letícia - 2025" },
     { texto: "Não tem que ter medo de quem está morto, tem que ter medo de quem está vivo.", autor: "ALVES, Kauan - 2025" },
     { texto: "Não adianta querer fazer o melhor se não sabe fazer o mínimo.", autor: "VIDAL, Gustavo - 2025" },
     { texto: "Só não faço flexão porque afunda a Terra.", autor: "GUILHERME, Luiz - 2025" },
@@ -18,13 +18,18 @@ const frases = [
     { texto: "Quem criou esse app do Teams tava no relaxo.", autor: "ALVES, Kauan - 2025" },
     { texto: "Quem muito se justifica é porque conhece o erro e sabe que nele está por puro prazer.", autor: "VIDAL, Gustavo - 2025" },
     { texto: "A vida é a mesma coisa de uma coxinha: tem gente que vai preferir te comer por cima, tem gente que vai preferir te comer por baixo, mas sempre vão querer te comer.", autor: "GUILHERME, Luiz - 2025" },
-    { texto: "Travesti é igual pinga sem álcool: a cara é a mesma, a embalagem é a mesma, mas o gosto é diferente!", autor: "NICHOLLAS, Pablo - 2025" },
+    { texto: "Quem tá com calor, que tire a blusa!", autor: "NICHOLLAS, Pablo - 2025" },
     { texto: "Pra pegar peixe grande precisa de tempo, paciência e calma, porque pra pegar piranha é fácil.", autor: "VIDAL, Gustavo - 2025" },
     { texto: "Mais nítido do que saber que a água mata a sede.", autor: "ALVES, Kauan - 2025" },
     { texto: "De que adianta você ser o azul mais belo, se a pessoa que admiras gosta de vermelho? Mas não se preocupe… alguém gosta de azul.", autor: "VIDAL, Gustavo - 2025" },
     { texto: "As verdadeiras provas são a da vida.", autor: "SILVA, Kemilly - 2025" },
     { texto: "Quer mentir para mentiroso?", autor: "BRENNO, Kayque - 2025" },
-    { texto: "Nunca pegue cacheada! Se ela enrola o cabelo, imagina você…", autor: "GUILHERME, Luiz - 2025" }
+    { texto: "Nunca pegue cacheada! Se ela enrola o cabelo, imagina você...", autor: "GUILHERME, Luiz - 2025" },
+    { texto: "Quando dá, dá, quando não dá, não dá!", autor: "GUILHERME, Luiz - 2025" },
+    { texto: "Tem que abrir olho para quem tá do lado.", autor: "ALVES, Kauan - 2025" },
+    { texto: "Ano passado vai ser...", autor: "FERREIRA, Pyetro - 2025" },
+    { texto: "Todo lugar que tem muita gente, tem um noiado.", autor: "VIDAL, Gustavo - 2025" },
+    { texto: "Quem corre é a bola, jogadô.", autor: "GUILHERME, Luiz - 2025" }
 ];
 
 function mostrarFrase() {

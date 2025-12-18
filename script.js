@@ -10,7 +10,7 @@ const frases = [
     { texto: "2026 eu fico estourado.", autor: "BRENNO, Kayque - 2025" },
     { texto: "Olhando pro nada, pensando em tudo.", autor: "SILVA, Rayssa" },
     { texto: "Nós deveríamos ter os mínimos defeitos, mas o orgulho nos faz querer ter todos.", autor: "VIDAL, Gustavo - 2025" },
-    { texto: "Se eu pudesse eu parava o tempo, pra aproveitar cada momento.", autor: "VIDAL, Gustavo - 2025" },
+    { texto: "Se eu pudesse eu parava o tempo para aproveitar cada momento.", autor: "VIDAL, Gustavo - 2025" },
     { texto: "Kauan tem uma fome maior que as orelhas.", autor: "BRENNO, Kayque - 2025" },
     { texto: "Foi só socar que funcionou.", autor: "BRENNO, Kayque - 2025" },
     { texto: "Quem tem ouvido, ouça, quem não tem, sofra.", autor: "BRENNO, Kayque - 2025" },
@@ -50,8 +50,9 @@ const frases = [
     { texto: "Quer me ensinar a jogar, mano?!", autor: "BRENNO, Kayque - 2025" },
     { texto: "Que bomba é essa?!", autor: "SILVA, Rayssa - 2025" },
     { texto: "Se penso, logo programo.", autor: "Autor desconhecido - 2025" },
-    { texto: "Não que saber se a laranja é pera ou lima. Quero saber da entrega!", autor: "KOMUTA, Yuri - 2025" },
+    { texto: "Não quero saber se a laranja é pera ou lima. Quero saber da entrega!", autor: "KOMUTA, Yuri - 2025" },
     { texto: "CSS me fez de mulher: me esculhachou...", autor: "DE SÁ, Fernando - 2025" },
+    { texto: "Dúvidas, dores ou reclamações?", autor: "KOMUTA, Yuri - 2025" }
 ];
 
 function mostrarFrase() {

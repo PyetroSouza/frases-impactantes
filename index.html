@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,48 +10,79 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
         rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/fonts.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Frases Aleatórias</title>
 </head>
+
 <body>
-    <img src="./img/rh-logo.png" alt="Main logo" class="rh-logo">
+    <!-- <img src="./img/rh-logo.png" alt="Main logo" class="rh-logo"> -->
+    <header>
+        <h1>Arquivo de Frases</h1>
+    </header>
     <main>
         <div class="frase">
-            <p id="frase"></p>
+            <p id="frase">Clique no botão para ver uma frase aleatória!</p>
             <p id="autor"></p>
-            <button onclick="mostrarFrase()">Clique para ver uma frase aleatória!</button>
+            <button onclick="mostrarFrase()">Nova Frase</button>
+            <a href="./pages/phrases.html" class="all-phrases">
+             Ver todas as frases
+            </a>
         </div>
-        <a href="./pages/phrases.html" class="all-phrases">
-            <button class="all-phrases">TODAS AS FRASES</button>
-        </a>
     </main>
     <footer>
         <p class="dev-by">Desenvolvido por:</p>
         <div class="app">
             <div class="instagram">
-                <a href="https://www.instagram.com/gustavv.idal/" class="gustavovidal">
-                    <img class="svg" src="./img/instagram-logo.svg" alt="Instagram logo">
-                    <p class="link">gustavv.idal</p>
-                </a>
-                <a href="https://www.instagram.com/pye_souza14/" class="pyetroferreira">
-                    <img class="svg" src="./img/instagram-logo.svg" alt="Instagram logo">
-                    <p class="link">pye_souza14</p>
-                </a>
+                <div class="part1">
+                    <a href="https://www.instagram.com/gustavv.idal/" class="gustavovidal">
+                        <img class="svg" src="./img/instagram-logo.svg" alt="Instagram logo">
+                        <p class="link">gustavv.idal</p>
+                    </a>
+                    <a href="https://www.instagram.com/zkauan_alvx/" class="kauanalves">
+                        <img class="svg" src="./img/instagram-logo.svg" alt="Instagram logo">
+                        <p class="link">zkauan_alvx</p>
+                    </a>
+                </div>
+                <div class="part2">
+                    <a href="https://www.instagram.com/kayquekc_/" class="kayquebrenno">
+                        <img class="svg" src="./img/instagram-logo.svg" alt="Instagram logo">
+                        <p class="link">kayquekc_</p>
+                    </a>
+                    <a href="https://www.instagram.com/pye_souza14/" class="pyetroferreira">
+                        <img class="svg" src="./img/instagram-logo.svg" alt="Instagram logo">
+                        <p class="link">pye_souza14</p>
+                    </a>
+                </div>
             </div>
             <div class="github">
-                <a href="https://github.com/gustavidal" class="gustavovidal">
-                    <img class="svg" src="./img/github-logo.svg" alt="GitHub logo">
-                    <p class="link">gustavidal</p>
-                </a>
-                <a href="https://github.com/PyetroSouza" class="pyetroferreira">
-                    <img class="svg" src="./img/github-logo.svg" alt="GitHub logo">
-                    <p class="link">PyetroSouza</p>
-                </a>
+                <div class="part1">
+                    <a href="https://github.com/gustavidal" class="gustavovidal">
+                        <img class="svg" src="./img/github-logo.svg" alt="GitHub logo">
+                        <p class="link">gustavidal</p>
+                    </a>
+                    <a href="https://github.com/KauanAlv" class="kauanalves">
+                        <img class="svg" src="./img/github-logo.svg" alt="GitHub logo">
+                        <p class="link">KauanAlv</p>
+                    </a>
+                </div>
+                <div class="part2">
+                    <a href="https://github.com/KayqueBrenno1" class="kayquebrenno">
+                        <img class="svg" src="./img/github-logo.svg" alt="GitHub logo">
+                        <p class="link">KayqueBrenno1</p>
+                    </a>
+                    <a href="https://github.com/PyetroSouza" class="pyetroferreira">
+                        <img class="svg" src="./img/github-logo.svg" alt="GitHub logo">
+                        <p class="link">PyetroSouza</p>
+                    </a>
+                </div>
             </div>
         </div>
     </footer>
     <script src="script.js"></script>
 </body>
+
 </html>

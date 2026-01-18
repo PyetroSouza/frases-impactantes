@@ -2,7 +2,7 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    font-family: "Comic Neue", sans-serif;
+    font-family: 'Inter', sans-serif;
     color: #fff;
     background: #0b0b0b;
 }
@@ -19,7 +19,14 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 20px;
+    padding-top: 40px;
+}
+
+header h1 {
+    font-size: 45px;
+    font-weight: 800;
+    letter-spacing: -1px;
+    color: #c1bcba;
 }
 
 main {
@@ -42,9 +49,8 @@ main {
 }
 
 .frase {
-    width: 50%;
+    width: 55%;
     padding: 60px 50px;
-
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -58,10 +64,16 @@ main {
 }
 
 .frase p {
-    color: #fafafa;
-    font-size: 45px;
+    color: #c0bdbc;
+    font-family: 'Space Grotesk', cursive;
+    font-size: 30px;
     font-weight: 700;
-    margin: 10px 0;
+    line-height: 1.5;
+}
+
+#autor{
+    color: #898788;
+    letter-spacing: 3;
 }
 
 .frase button {
@@ -71,16 +83,17 @@ main {
     background-color: #800000;
     color: white;
     font-size: 30px;
+    font-weight: 500;
     cursor: pointer;
     margin-top: 20px;
 }
 
 .all-phrases {
-    font-size: 0.9rem;
+    font-size: 20px;
     opacity: 0.6;
     color: inherit;
     transition: opacity 0.2s ease;
-    margin-top: 12px;
+    margin-top: 30px;
 }
 
 .todas-frases {

@@ -55,7 +55,7 @@ const frases = [
     { texto: "Dúvidas, dores ou reclamações?", autor: "KOMUTA, Yuri - 2025" },
     {texto: "Quem pensa muito, se ferra muito", autor: "BRENNO, Kayque - 2026"},
     {texto: "Tem que sobrar algo pro beta, ou melhor, pro cara tranquilo.", autor: "VIDAL, Gustavo - 2026"},
-    { texto: "Nunca desista dos seus sonho, se não encontrar nessa padaria, vai em outra", autor: "FERREIRA, Pyetro - 2026" },
+    { texto: "Nunca desista dos seu sonho, se não encontrar nessa padaria, vai em outra", autor: "FERREIRA, Pyetro - 2026" },
     { texto: "O que importa não é quantas você caiu, é quantas você levantou", autor: "TORQUATO, Vitnho - 2026" }
 ];
 

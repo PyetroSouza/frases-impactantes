@@ -14,7 +14,7 @@ const frases = [
     { texto: "Kauan tem uma fome maior que as orelhas.", autor: "BRENNO, Kayque - 2025" },
     { texto: "Foi só socar que funcionou.", autor: "BRENNO, Kayque - 2025" },
     { texto: "Quem tem ouvido, ouça, quem não tem, sofra.", autor: "BRENNO, Kayque - 2025" },
-    { texto: "Não adianta ter um instrumento bom, e não tem habilidade.", autor: "TORQUATO, Victor - 2025" },
+    { texto: "Não adianta ter um instrumento bom, e não ter habilidade.", autor: "TORQUATO, Victor - 2025" },
     { texto: "Pyetro é japonês?! Só se for depois da bomba!", autor: "VIDAL, Gustavo - 2025" },
     { texto: "Isso aí é imoral...", autor: "ALVES, Kauan - 2025" },
     { texto: "A gente só vai fazer festa de Halloween porque na sala só tem bruxa.", autor: "BRENNO, Kayque - 2025" },

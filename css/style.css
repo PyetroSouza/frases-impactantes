@@ -7,13 +7,11 @@ body {
     background: #0b0b0b;
 }
 
-
-
-/* .rh-logo {
-    height: 150px;
-    width: 150px;
+.rh-logo {
+    height: 175px;
+    width: 175px;
     position: absolute;
-} */
+}
 
 header {
     display: flex;
@@ -57,8 +55,8 @@ main {
     align-items: center;
     background: radial-gradient(circle at top, #2a2a2a, #151515);
     box-shadow:
-        0 30px 80px rgba(0, 0, 0, 0.8),
-        inset 0 1px 0 rgba(255, 255, 255, 0.05);
+        0 30px 80px rgba(25, 25, 25, 0.8),
+        inset 0 1px 0 rgba(255, 255, 255, 0.23);
     border-radius: 18px;
 
 }
@@ -74,6 +72,7 @@ main {
 #autor{
     color: #898788;
     letter-spacing: 3;
+    padding-bottom: 5px;
 }
 
 .frase button {
@@ -82,10 +81,22 @@ main {
     border-radius: 8px;
     background-color: #800000;
     color: white;
+    font-family: 'Inter', cursive;
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 550;
     cursor: pointer;
-    margin-top: 20px;
+    margin-top: 15px;
+}
+
+.frase button:hover {
+    background-color: #a00000;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(160, 0, 0, 0.4);
+}
+
+.frase button:active {
+    transform: translateY(0);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
 }
 
 .all-phrases {
@@ -94,6 +105,34 @@ main {
     color: inherit;
     transition: opacity 0.2s ease;
     margin-top: 30px;
+}
+.all-phrases {
+    margin-top: 30px;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    position: relative;
+    transition: color 0.2s ease;
+}
+
+.all-phrases::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 0;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.8);
+    transition: width 0.25s ease;
+}
+
+.all-phrases:hover {
+    color: rgba(255, 255, 255, 0.9);
+    letter-spacing: 0.5px;
+}
+
+.all-phrases:hover::after {
+    width: 100%;
 }
 
 .todas-frases {

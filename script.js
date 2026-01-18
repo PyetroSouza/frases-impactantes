@@ -52,7 +52,8 @@ const frases = [
     { texto: "Se penso, logo programo.", autor: "Autor desconhecido - 2025" },
     { texto: "Não quero saber se a laranja é pera ou lima. Quero saber da entrega!", autor: "KOMUTA, Yuri - 2025" },
     { texto: "CSS me fez de mulher: me esculhachou...", autor: "DE SÁ, Fernando - 2025" },
-    { texto: "Dúvidas, dores ou reclamações?", autor: "KOMUTA, Yuri - 2025" }
+    { texto: "Dúvidas, dores ou reclamações?", autor: "KOMUTA, Yuri - 2025" },
+    {texto: "Nunca desista dos seus sonho, se não encontrar nessa padaria, vai em outra", autor: "Pyetro Ferreira - 2026"}
 ];
 
 function mostrarFrase() {

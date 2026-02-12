@@ -58,7 +58,7 @@ const frases = [
     { texto: "Nunca desista dos seu sonho, se não encontrar nessa padaria, vai em outra", autor: "FERREIRA, Pyetro - 2026" },
     { texto: "O que importa não é quantas você caiu, é quantas você levantou", autor: "TORQUATO, Vitnho - 2026" },
     {texto: "Até você provar que focinho de porco não é tomada…", autor: "NEVES, Marcel - 2026"},
-    {texo: "Vocês pararam de usar tecnologias. Agora vocês vão criar novas tecnologias.", autor: "NEVES, Marcel - 2026"},
+    {texto: "Vocês pararam de usar tecnologias. Agora vocês vão criar novas tecnologias.", autor: "NEVES, Marcel - 2026"},
     {texto: "É saBOOOOUR ganância.",autor: "DE SÁ, Fernando - 2026"},
     {texto: "É SaBOOOOUR formatura.",autor: "GABRIEL, Henzo - 2026"},
     {texto: "Parece ser fichinha banco de dados.",autor: "BRENNO, Kayque - 2026"},

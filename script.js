@@ -56,7 +56,26 @@ const frases = [
     {texto: "Quem pensa muito, se ferra muito", autor: "BRENNO, Kayque - 2026"},
     {texto: "Tem que sobrar algo pro beta, ou melhor, pro cara tranquilo.", autor: "VIDAL, Gustavo - 2026"},
     { texto: "Nunca desista dos seu sonho, se não encontrar nessa padaria, vai em outra", autor: "FERREIRA, Pyetro - 2026" },
-    { texto: "O que importa não é quantas você caiu, é quantas você levantou", autor: "TORQUATO, Vitnho - 2026" }
+    { texto: "O que importa não é quantas você caiu, é quantas você levantou", autor: "TORQUATO, Vitnho - 2026" },
+    {texto: "Até você provar que focinho de porco não é tomada…", autor: "NEVES, Marcel - 2026"},
+    {texo: "Vocês pararam de usar tecnologias. Agora vocês vão criar novas tecnologias.", autor: "NEVES, Marcel - 2026"},
+    {texto: "É saBOOOOUR ganância.",autor: "DE SÁ, Fernando - 2026"},
+    {texto: "É SaBOOOOUR formatura.",autor: "GABRIEL, Henzo - 2026"},
+    {texto: "Parece ser fichinha banco de dados.",autor: "BRENNO, Kayque - 2026"},
+    {texto: "Que nem Chapéuzinho Vermelho, mas agora o lobo está na forma da programação.",autor: "ALVES, Kauan - 2026"},
+    {texto: "Cuidado que o Lobo Brigão saiu da jaula", autor: "ALVES, KAUAN - 2026"},
+    {texto: "Até o banco de dados tem relacionamento e eu não", autor: "VIDAL, Gustavo - 2026"},
+    {texto: "Nunca mais fala isso!", autor: "VIDAL, Gustavo - 2026 "},
+    {texto: "Uma diferença sutil, mas para quem conhece é uma grande diferença", autor: "ALVES, Kauan - 2026"},
+    {texto: "Não matou, não roubou, vou prender pra quê?", autor: "ALVES, Kauan - 2026"},
+    {texto: "Não é, não fez, porém tem que pagar pensão...", autor: "TORQUATO, Vitinho - 2026"},
+    {texto: "Clarinho que sim",autor: "LUIZA, Letíca - 2026"},
+    {texto: "Tudo mundo fala do clarinho que sim, mas pra do escuinho que não... Só o Pyetro fala", autor: "LUIZA, Letícia - 2026"},
+    {texto: "Da boca sai tudo aquilo que o coração se enche", autor: "VIDAL, Gustavo - 2026"},
+    {texto: "Foi Usuário", autor: "FERREIRA, Pyetro - 2026"},
+    
+
+
 ];
 
 function mostrarFrase() {

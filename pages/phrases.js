@@ -21,7 +21,7 @@ function carregarFrases() {
 
     lista.innerHTML = frases.map(frase => `
         <li>
-            <div class="linha-frase">"${frase.texto}"</div>
+            <div class="linha-frase">"${frase.frase}"</div>
             <div class="linha-autor">— ${frase.autor} (${frase.ano})</div>
         </li>
     `).join("");

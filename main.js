@@ -8,7 +8,7 @@ function mostrarFrase() {
     const indice = Math.floor(Math.random() * FRASES.frases.length);
     const frase = FRASES.frases[indice];
 
-    document.getElementById('frase').textContent = frase.texto;
+    document.getElementById('frase').textContent = frase.frase;
     document.getElementById('autor').textContent = frase.autor;
     document.getElementById('ano').textContent = frase.ano;
 }

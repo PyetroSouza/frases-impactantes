@@ -311,7 +311,7 @@ export const FRASES = {
             "ano": 2026
         },
         {
-            "frase": "Cuidado que o Lobo Brigão saiu da jaula.",
+            "frase": "Cuidado que o Goblin Brigão saiu da jaula.",
             "autor": "Kauan Alves",
             "ano": 2026
         },

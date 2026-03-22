@@ -1,5 +1,5 @@
 body {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     font-family: 'Inter', sans-serif;
@@ -47,23 +47,26 @@ main {
 }
 
 .frase {
-    width: 55%;
+    width: 100%;
+    max-width: 700px;
     padding: 60px 50px;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
+
     background: radial-gradient(circle at top, #2a2a2a, #151515);
     box-shadow:
         0 30px 80px rgba(25, 25, 25, 0.8),
         inset 0 1px 0 rgba(255, 255, 255, 0.23);
     border-radius: 18px;
-
 }
 
-.frase p {
+/* agora funciona com blockquote também */
+.frase p,
+#frase {
     color: #c0bdbc;
-    font-family: 'Space Grotesk', cursive;
+    font-family: 'Space Grotesk', sans-serif;
     font-size: 30px;
     font-weight: 700;
     line-height: 1.5;
@@ -71,8 +74,19 @@ main {
 
 #autor {
     color: #898788;
-    letter-spacing: 3;
+    letter-spacing: 3px;
+    /* tava errado antes */
     padding-bottom: 5px;
+}
+
+#ano {
+    color: #6f6d6e;
+    font-size: 14px;
+}
+
+.back-arrow {
+    padding-right: 10px;
+    height: 100%;
 }
 
 .frase button {
@@ -81,11 +95,12 @@ main {
     border-radius: 8px;
     background-color: #800000;
     color: white;
-    font-family: 'Inter', cursive;
-    font-size: 30px;
-    font-weight: 550;
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
     cursor: pointer;
     margin-top: 15px;
+    transition: all 0.2s ease;
 }
 
 .frase button:hover {
@@ -99,21 +114,14 @@ main {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
 }
 
-.all-phrases {
-    font-size: 20px;
-    opacity: 0.6;
-    color: inherit;
-    transition: opacity 0.2s ease;
-    margin-top: 30px;
-}
-
+/* removi duplicação */
 .all-phrases {
     margin-top: 30px;
     font-size: 18px;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
     position: relative;
-    transition: color 0.2s ease;
+    transition: all 0.2s ease;
 }
 
 .all-phrases::after {
@@ -148,11 +156,11 @@ main {
     margin-bottom: 15px;
 }
 
-
-
 .todas-frases ul li {
     padding: 8px 0;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #333;
+    /* melhor contraste no dark */
+    font-size: 20px;
 }
 
 .linha-frase {
@@ -162,16 +170,16 @@ main {
 
 .linha-autor {
     font-size: 0.9em;
-    color: #555555;
+    color: #aaa;
     margin-top: 3px;
 }
 
 footer {
-    align-items: end;
-    justify-content: center;
     display: flex;
     flex-direction: column;
-    padding: 0px 20px 20px 20px;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 0 20px 20px;
     gap: 5px;
 }
 
@@ -184,13 +192,14 @@ footer {
 .github {
     display: flex;
     flex-direction: column;
-    gap: 2.7px;
+    gap: 3px;
 }
 
 .gustavovidal,
 .pyetroferreira {
-    gap: 2px;
     display: flex;
+    align-items: center;
+    gap: 5px;
 }
 
 .svg {
@@ -198,30 +207,31 @@ footer {
     width: 15px;
 }
 
-/*iPad Mini - TABLET*/
-@media(max-width: 1024px) {
+/* TABLET */
+@media (max-width: 1024px) {
     .frase {
         max-width: 600px;
     }
 
-    .frase p {
-        font-size: 37px;
+    .frase p,
+    #frase {
+        font-size: 32px;
     }
 
     .todas-frases h2 {
-        font-size: 40px;
+        font-size: 36px;
     }
 
     .linha-frase {
-        font-size: 30px;
+        font-size: 24px;
     }
 
     .linha-autor {
-        font-size: 27px;
+        font-size: 20px;
     }
 
     footer {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .svg {
@@ -230,35 +240,36 @@ footer {
     }
 }
 
-/*iPhone SE - MOBILE*/
-@media(max-width: 480px) {
-
-    h1 {
+/* MOBILE */
+@media (max-width: 480px) {
+    header h1 {
         text-align: center;
+        font-size: 32px;
     }
 
     .frase {
-        max-width: 290px;
+        padding: 40px 25px;
     }
 
-    .frase p {
+    .frase p,
+    #frase {
         font-size: 20px;
     }
 
-    button {
-        font-size: 20px;
+    .frase button {
+        font-size: 18px;
     }
 
     .todas-frases h2 {
-        font-size: 30px;
+        font-size: 26px;
     }
 
     .linha-frase {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .linha-autor {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     footer {
@@ -267,7 +278,7 @@ footer {
     }
 
     .dev-by {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .app {
@@ -275,7 +286,7 @@ footer {
     }
 
     .svg {
-        height: 20px;
-        width: 20px;
+        height: 18px;
+        width: 18px;
     }
 }

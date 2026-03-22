@@ -536,14 +536,24 @@ export const FRASES = {
             "ano": 2026
         },
         {
-            "frase": "Per ipsum, et cum ipso, et in ipso...",
+            "frase": "Per ipsum, et cum ipso, et in ipso!",
             "autor": "Gustavo Vidal",
             "ano": 2026
         },
         {
-            "frase": "Una cosa es una cosa, y otra cosa es otra cosa",
+            "frase": "Una cosa es una cosa, y otra cosa es otra cosa.",
             "autor": "Papito",
             "ano": 2026
         },
+        {
+            "frase": "Prefere ser um herói morto do que um Kayque vivo.",
+            "autor": "Kayque Brenno",
+            "ano": 2026
+        },
+        {
+            "frase": "O amor suporta; o amor supera; o amor espera.",
+            "autor": "Gustavo Vidal",
+            "ano": 2026
+        }
     ]
 }

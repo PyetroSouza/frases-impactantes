@@ -547,7 +547,7 @@ export const FRASES = {
         },
         {
             "frase": "Prefere ser um herói morto do que um Kayque vivo.",
-            "autor": "Kayque Brenno",
+            "autor": "Victor Torquato",
             "ano": 2026
         },
         {

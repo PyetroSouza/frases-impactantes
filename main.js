@@ -3,10 +3,10 @@
 import { FRASES } from './js/frases.js';
 
 function mostrarFrase() {
-    if (!FRASES.frases.length) return;
+    if (!FRASES.length) return;
 
-    const indice = Math.floor(Math.random() * FRASES.frases.length);
-    const frase = FRASES.frases[indice];
+    const indice = Math.floor(Math.random() * FRASES.length);
+    const frase = FRASES[indice];
 
     document.getElementById('frase').textContent = frase.frase;
     document.getElementById('autor').textContent = frase.autor;

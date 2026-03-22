@@ -6,7 +6,7 @@ function carregarFrases() {
     const lista = document.getElementById("lista-frases");
     if (!lista) return;
 
-    const frases = [...FRASES.frases]; // cópia pra não bagunçar o original
+    const frases = [...FRASES]; // cópia pra não bagunçar o original
 
     // ordenação composta: autor → ano
     frases.sort((a, b) => {
@@ -22,7 +22,7 @@ function carregarFrases() {
     lista.innerHTML = frases.map(frase => `
         <li>
             <div class="linha-frase">"${frase.frase}"</div>
-            <div class="linha-autor">— ${frase.autor} (${frase.ano})</div>
+            <div class="linha-autor">— ${frase.autor} (${frase.ano}) | Categoria: ${frase.categoria}</div>
         </li>
     `).join("");
 }

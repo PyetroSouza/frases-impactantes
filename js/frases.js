@@ -784,5 +784,12 @@ export const FRASES = [
         "autor": "Gustavo Vidal",
         "ano": 2026,
         "categoria": "reflexao"
+    },
+    {
+        "id": 112,
+        "frase": "É impossível falar farofa com a boca cheia de farofa.",
+        "autor": "Nathan Luna",
+        "ano": 2026,
+        "categoria": "zoeira"
     }
 ]

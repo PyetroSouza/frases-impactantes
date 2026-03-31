@@ -805,4 +805,5 @@ export const FRASES = [
         "autor": "Gustavo Vidal",
         "ano": 2026,
         "categoria": "reflexao"
+    }
 ]

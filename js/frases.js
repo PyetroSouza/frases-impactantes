@@ -791,5 +791,18 @@ export const FRASES = [
         "autor": "Nathan Luna",
         "ano": 2026,
         "categoria": "zoeira"
-    }
+    },
+    {
+        "id": 113,
+        "frase": "Não tô comendo não, só estou vendo se está gostoso.",
+        "autor": "Kayque Brenno",
+        "ano": 2026,
+        "categoria": "zoeira"
+    },
+    {
+        "id": 114,
+        "frase": "Fale o que não deve, e receberá o que merece!",
+        "autor": "Gustavo Vidal",
+        "ano": 2026,
+        "categoria": "reflexao"
 ]

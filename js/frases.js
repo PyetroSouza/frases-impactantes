@@ -805,5 +805,12 @@ export const FRASES = [
         "autor": "Gustavo Vidal",
         "ano": 2026,
         "categoria": "reflexao"
+    },
+    {
+        "id": 115,
+        "frase": "Eu faço piadas com vocês porque vocês são nerds e eu sou descolada.",
+        "autor": "Kemilly Silva",
+        "ano": 2026,
+        "categoria": "zoeira"
     }
 ]

@@ -812,5 +812,12 @@ export const FRASES = [
         "autor": "Kemilly Silva",
         "ano": 2026,
         "categoria": "zoeira"
+    },
+    {
+        "id": 116,
+        "frase": "Tô mais livre do que Presidente da República.",
+        "autor": "Gustavo Vidal",
+        "ano": 2026,
+        "categoria": "nonsense"
     }
 ]

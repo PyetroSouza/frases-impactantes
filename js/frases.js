@@ -819,5 +819,12 @@ export const FRASES = [
         "autor": "Gustavo Vidal",
         "ano": 2026,
         "categoria": "nonsense"
+    },
+    {
+        "id": 117,
+        "frase": "Nem API muda tanto de versão igual os horários da Etec.",
+        "autor": "Kauan Alves",
+        "ano": 2026,
+        "categoria": "zoeira"
     }
 ]

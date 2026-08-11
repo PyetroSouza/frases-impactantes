@@ -826,5 +826,12 @@ export const FRASES = [
         "autor": "Kauan Alves",
         "ano": 2026,
         "categoria": "zoeira"
+    },
+    {
+        "id": 118,
+        "frase": "Conhecer ela foi como ouvir uma música pela primeira vez sem saber que se tornaria a minha favorita.",
+        "autor": "Gustavo Vidal",
+        "ano": 2026,
+        "categoria": "reflexao"
     }
 ]
